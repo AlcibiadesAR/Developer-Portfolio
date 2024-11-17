@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+
+body {
+  color: #fff;
+  background-color: #0a0f2c;
+  position: relative;
+  min-height: 100vh;
+  overflow-y: scroll;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.hero__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: tr_anslate(-50%, -50%);
+  font-size: 50px;
+  z-index: 10;
+}
+
+.shape {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  transform-origin: center;
+  animation: shapeAnimation 12s ease-in forwards infinite;
+  pointer-events: none;
+}
+
+.shape:nth-child(1) {
+  background-color: #003298;
+  border-radius: 50%; /* Círculo */
+  animation-delay: 0s;
+  left: 15vw;
+  top: 20vh;
+}
+
+.shape:nth-child(2) {
+  background-color: #0051f4;
+  border-radius: 0; /* Cuadrado */
+  animation-delay: 2s;
+  left: 25vw;
+  top: 60vh;
+}
+
+.shape:nth-child(3) {
+  background-color: #00b0ff;
+  width: 60px;
+  height: 60px;
+  transform: rotate(45deg); /* Rombo */
+  animation-delay: 4s;
+  left: 75vw;
+  top: 30vh;
+}
+
+.shape:nth-child(4) {
+  background-color: #ff4081;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #ff4081; /* Triángulo */
+  animation-delay: 6s;
+  left: 50vw;
+  top: 10vh;
+}
+
+.shape:nth-child(5) {
+  background-color: #f4a300;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  animation-delay: 8s;
+  left: 90vw;
+  top: 80vh;
+}
+
+.shape:nth-child(6) {
+  background-color: #8e44ad;
+  width: 80px;
+  height: 80px;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation-delay: 10s;
+  left: 60vw;
+  top: 60vh;
+}
+
+@keyframes shapeAnimation {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 0.1;
+  }
+  to {
+    transform: scale(10) rotate(720deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}

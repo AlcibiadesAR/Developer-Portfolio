@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+    .menu-desktop {
+      display: none;
+    }
+  
+    .menu-hamburger {
+      display: block;
+    }
+  
+    .menu-hamburger-dropdown {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .menu-desktop {
+      display: flex;
+    }
+
+    .menu-hamburger {
+      display: none;
+    }
+  }
+  

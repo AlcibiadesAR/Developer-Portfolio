@@ -1,0 +1,62 @@
+[
+    {
+        "name": "ReactJS",
+        "icon": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" 
+    },
+    {
+        "name": "Vite",
+        "icon": "https://www.vectorlogo.zone/logos/vitejsdev/vitejsdev-icon.svg"
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://cdn.iconscout.com/icon/free/png-512/free-nodejs-2-226035.png?f=webp&w=512"
+    },
+    {
+        "name": "TailwindCSS",
+        "icon": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://cdn.iconscout.com/icon/free/png-512/free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945040.png?f=webp&w=512"
+    },
+    {
+        "name": "Netlify",
+        "icon": "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg"
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+    },
+    {
+        "name": "GitHub",
+        "icon": "../src/assets/img/github.png"
+    },
+    {
+        "name": "Figma",
+        "icon": "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
+    },
+    {
+        "name": "Sequelize",
+        "icon": "https://www.vectorlogo.zone/logos/sequelizejs/sequelizejs-icon.svg"
+    }   
+]
