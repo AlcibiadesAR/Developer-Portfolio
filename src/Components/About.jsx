@@ -1,4 +1,4 @@
-import fotoPersonal from '/assets/img/foto.png'
+import fotoPersonal from '/Assets/img/foto.png'
 
 function About() {
   return (
