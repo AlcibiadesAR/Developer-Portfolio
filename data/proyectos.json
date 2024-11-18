@@ -13,7 +13,7 @@
   "description": "Este es mi portafolio personal, construido con React, Vite y Tailwind CSS. Usé React para crear interfaces interactivas, Vite para un desarrollo rápido con actualización en tiempo real, y Tailwind CSS para un diseño flexible. Aquí podrás ver mis proyectos y una muestra de mis habilidades en desarrollo web.",
   "image": "/Assets/img/DeveloperPortfolio.webP",
   "github": "https://github.com/AlcibiadesAR/Developer-Portfolio",
-  "live": "developer-portfolio-alcibiadesacosta"
+  "live": "https://developer-portfolio-alcibiadesacosta.netlify.app/"
 },
 {
   "id": 3,
