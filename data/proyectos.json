@@ -9,22 +9,14 @@
 },
 {
   "id": 2,
-  "name": "Workout Store 507",
-  "description": "Es una maquetación de una tienda en línea especializada en productos de gimnasio. Esta diseñada para mostrar diferentes categorías de productos, la sección del carrito, darkMode y un diseño adaptable a diferentes dispositivos.",
-  "image": "/Assets/img/WorkoutStore507.webP",
-  "github": "https://github.com/AlcibiadesAR/Grupo1-WORKOUT-507-STORE",
-  "live": "https://grupo1-workout-507-store.onrender.com/login.html"
-},
-{
-  "id": 3,
   "name": "Developer Portfolio",
   "description": "Este es mi portafolio personal, construido con React, Vite y Tailwind CSS. Usé React para crear interfaces interactivas, Vite para un desarrollo rápido con actualización en tiempo real, y Tailwind CSS para un diseño flexible. Aquí podrás ver mis proyectos y una muestra de mis habilidades en desarrollo web.",
   "image": "/Assets/img/DeveloperPortfolio.webP",
   "github": "https://github.com/AlcibiadesAR/Developer-Portfolio",
-  "live": "https://proyecto-clima-javascript-para-dom.netlify.app/"
+  "live": "developer-portfolio-alcibiadesacosta"
 },
 {
-  "id": 4,
+  "id": 3,
   "name": "Buscador de Películas en React",
   "description": "Buscador de Películas es una aplicación construida en React que permite a los usuarios encontrar películas por título. Muestra resultados con detalles como el título, el póster y una descripción breve, todo en una interfaz fácil de usar.",
   "image": "/Assets/img/app-peliculas.webP",
@@ -32,7 +24,7 @@
   "live": "https://buscador-de-peliculas-desde-react.netlify.app/"
 },
 {
-  "id": 5,
+  "id": 4,
   "name": "Red social Pajarito",
   "description": "Es una aplicación donde los usuarios pueden publicar pensamientos y comentarios. Los usuarios pueden escribir un título y un comentario, que luego se muestran en una lista. La interfaz es sencilla y accesible, permitiendo compartir lo que piensan.",
   "image": "/Assets/img/red-social-pajarito.webP",
@@ -40,12 +32,19 @@
   "live": "https://proyecto-red-social-javascript.netlify.app/"
 },
 {
-  "id": 6,
+  "id": 5,
   "name": "Aplicación del Clima en React",
   "description": "Una aplicación de clima construida con React. Utiliza una API de datos meteorológicos para mostrar la temperatura, condiciones actuales y pronósticos por ubicación. Diseño adaptable y una interfaz fácil de usar.",
   "image": "/Assets/img/aplicacionClima.webP",
   "github": "https://github.com/AlcibiadesAR/app-clima-React",
   "live": "https://proyecto-clima-javascript-para-dom.netlify.app/"
+},
+{
+  "id": 6,
+  "name": "Workout Store 507",
+  "description": "Este proyecto fue mi primer acercamiento al desarrollo web, donde aprendí sobre maquetación con HTML, CSS y JavaScript. Aunque aún necesita mejoras en optimización, fue una experiencia clave que me permitió aprender, a trabajar en equipo y seguir mejorando en el desarrollo web.",
+  "image": "/Assets/img/WorkoutStore507.webP",
+  "github": "https://github.com/AlcibiadesAR/Grupo1-WORKOUT-507-STORE",
+  "live": "https://grupo1-workout-507-store.onrender.com/login.html"
 }
-
 ]
