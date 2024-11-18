@@ -1,14 +1,14 @@
 function Contact() {
   return (
     <section className="container mx-auto mt-24 mb-40 pt-2">
-      <h2 className="text-center font-mono font-bold text-4xl md:text-6xl mb-10">
+      <h2 className="text-center font-mono font-bold text-4xl md:text-6xl mb-10 drop-shadow-[2px_2px_4px_rgba(0,255,0,0.6)]">
         Contáctame
       </h2>
-      <div className="w-[90%] m-auto mx-auto bg-gray-900 p-8 rounded-lg shadow-lg">
+      <div className="w-[90%] m-auto mx-auto bg-gray-900 p-8 rounded-lg shadow-lg font-quantico" >
         <p className="text-center text-gray-400 mb-6">
           Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico directamente a:
         </p>
-        <div className="text-center text-lg text-blue-500 mb-4">
+        <div className="text-center text-sm md:text-lg text-blue-500 mb-4">
           <a href="mailto:alcibiades.acosta.r@gmail.com">alcibiades.acosta.r@gmail.com</a>
         </div>
         <p className="text-center text-gray-400 mb-6">

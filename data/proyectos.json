@@ -1,42 +1,51 @@
-[
+[ 
   {
-   "id": 1,
-    "title": "EleganceTimeShop",
-    "description": "Es un marketplace en línea especializado en la venta de relojes. Ofrece una amplia variedad de categorías, marcas y estilos. Utiliza una API desarrollada con Express para el dashboard y opera con una base de datos para un manejo eficiente de los datos.",
-    "image": "../src/assets/img/EleganceTimeShop.png",
-    "github": "https://github.com/AlcibiadesAR/DPFS_alcibiades_acosta",
-    "live": "#"
-  },
-  {
-    "id": 2,
-    "title": "Workout Store 507",
-    "description": "Es una maquetación de una tienda en línea especializada en productos de gimnasio. Esta diseñada para mostrar diferentes categorías de productos, la sección del carrito, darkMode y un diseño adaptable a diferentes dispositivos.",
-    "image": "../src/assets/img/WorkoutStore507.png",
-    "github": "https://github.com/AlcibiadesAR/Grupo1-WORKOUT-507-STORE",
-    "live": "https://grupo1-workout-507-store.onrender.com/login.html"
-  },
-  {
-    "id": 3,
-    "title": "Buscador de Películas en React",
-    "description": "Buscador de Películas es una aplicación construida en React que permite a los usuarios encontrar películas por título. Muestra resultados con detalles como el título, el póster y una descripción breve, todo en una interfaz fácil de usar.",
-    "image": "../src/assets/img/app-peliculas.png",
-    "github": "https://github.com/AlcibiadesAR/buscador-de-peliculas-React",
-    "live": "https://buscador-de-peliculas-desde-react.netlify.app/"
-  },
-  {
-    "id": 4,
-    "title": "Red social Pajarito",
-    "description": "Es una aplicación donde los usuarios pueden publicar pensamientos y comentarios. Los usuarios pueden escribir un título y un comentario, que luego se muestran en una lista. La interfaz es sencilla y accesible, permitiendo compartir lo que piensan.",
-    "image": "../src/assets/img/red-social-pajarito.png",
-    "github": "https://github.com/AlcibiadesAR/Proyecto-Red-Social-Javascript",
-    "live": "https://proyecto-red-social-javascript.netlify.app/"
-  },
-  {
-    "id": 5,
-    "title": "Aplicación del Clima en React",
-    "description": "Una aplicación de clima construida con React. Utiliza una API de datos meteorológicos para mostrar la temperatura, condiciones actuales y pronósticos por ubicación. Diseño adaptable y una interfaz fácil de usar.",
-    "image": "../src/assets/img/aplicacionClima.png",
-    "github": "https://github.com/AlcibiadesAR/app-clima-React",
-    "live": "https://proyecto-clima-javascript-para-dom.netlify.app/"
-  }
+  "id": 1,
+  "name": "EleganceTimeShop",
+  "description": "Es un marketplace en línea en la venta de relojes. Ofrece una amplia variedad de categorías, marcas y estilos. Opera con una base de datos para un manejo eficiente de los datos. Contiene adicional un dashboard hecho con React y con una api de express.",
+  "image": "/Assets/img/EleganceTimeShop.webP",
+  "github": "https://github.com/AlcibiadesAR/DPFS_alcibiades_acosta",
+  "live": null
+},
+{
+  "id": 2,
+  "name": "Workout Store 507",
+  "description": "Es una maquetación de una tienda en línea especializada en productos de gimnasio. Esta diseñada para mostrar diferentes categorías de productos, la sección del carrito, darkMode y un diseño adaptable a diferentes dispositivos.",
+  "image": "/Assets/img/WorkoutStore507.webP",
+  "github": "https://github.com/AlcibiadesAR/Grupo1-WORKOUT-507-STORE",
+  "live": "https://grupo1-workout-507-store.onrender.com/login.html"
+},
+{
+  "id": 3,
+  "name": "Developer Portfolio",
+  "description": "Este es mi portafolio personal, construido con React, Vite y Tailwind CSS. Usé React para crear interfaces interactivas, Vite para un desarrollo rápido con actualización en tiempo real, y Tailwind CSS para un diseño flexible. Aquí podrás ver mis proyectos y una muestra de mis habilidades en desarrollo web.",
+  "image": "/Assets/img/DeveloperPortfolio.webP",
+  "github": "https://github.com/AlcibiadesAR/Developer-Portfolio",
+  "live": "https://proyecto-clima-javascript-para-dom.netlify.app/"
+},
+{
+  "id": 4,
+  "name": "Buscador de Películas en React",
+  "description": "Buscador de Películas es una aplicación construida en React que permite a los usuarios encontrar películas por título. Muestra resultados con detalles como el título, el póster y una descripción breve, todo en una interfaz fácil de usar.",
+  "image": "/Assets/img/app-peliculas.webP",
+  "github": "https://github.com/AlcibiadesAR/buscador-de-peliculas-React",
+  "live": "https://buscador-de-peliculas-desde-react.netlify.app/"
+},
+{
+  "id": 5,
+  "name": "Red social Pajarito",
+  "description": "Es una aplicación donde los usuarios pueden publicar pensamientos y comentarios. Los usuarios pueden escribir un título y un comentario, que luego se muestran en una lista. La interfaz es sencilla y accesible, permitiendo compartir lo que piensan.",
+  "image": "/Assets/img/red-social-pajarito.webP",
+  "github": "https://github.com/AlcibiadesAR/Proyecto-Red-Social-Javascript",
+  "live": "https://proyecto-red-social-javascript.netlify.app/"
+},
+{
+  "id": 6,
+  "name": "Aplicación del Clima en React",
+  "description": "Una aplicación de clima construida con React. Utiliza una API de datos meteorológicos para mostrar la temperatura, condiciones actuales y pronósticos por ubicación. Diseño adaptable y una interfaz fácil de usar.",
+  "image": "/Assets/img/aplicacionClima.webP",
+  "github": "https://github.com/AlcibiadesAR/app-clima-React",
+  "live": "https://proyecto-clima-javascript-para-dom.netlify.app/"
+}
+
 ]

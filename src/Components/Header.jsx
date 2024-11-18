@@ -1,7 +1,7 @@
-import '../styles/header.css'
+import '../styles/header.css';
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { scrollToSection } from '../Utils/Scroll' 
+import { scrollToSection } from '../Utils/Scroll'; 
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,18 +11,18 @@ function Header() {
   };
 
   const closeMenuAndScroll = (sectionId) => {
-    scrollToSection(sectionId);  // Realiza el scroll a la sección correspondiente
-    setIsMenuOpen(false);         // Cierra el menú
+    scrollToSection(sectionId);  
+    setIsMenuOpen(false);       
   };
 
   return (
     <>
       <header>
-        <div className="container px-2 sm:px-6 lg:px-8 z-10 md:m-auto">
+        <div className="container px-2 sm:px-6 md:px-24 z-10 md:m-auto">
           <div className="flex justify-between items-center py-4">
             <div className="flex w-0 flex-1">
               <span
-                className="text-3xl md:text-4xl lg:text-5xl font-bold text-white font-quantico mt-4"
+                className="text-3xl md:text-4xl lg:text-5xl font-bold text-white font-quantico mt-4 drop-shadow-[2px_2px_4px_rgba(0,255,0,0.6)]"
                 onClick={() => scrollToSection("hero")}
                 style={{ cursor: "pointer" }}
               >
@@ -46,16 +46,28 @@ function Header() {
             </div>
 
             <nav className="menu-desktop space-x-10 font-quantico ml-auto">
-              <button onClick={() => closeMenuAndScroll("about")} className="text-xl md:text-[24px] text-white">
+              <button
+                onClick={() => closeMenuAndScroll("about")}
+                className="text-xl md:text-[18px] text-white relative pb-2 hover:after:block hover:after:content-[''] hover:after:absolute hover:after:left-0 hover:after:bottom-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-green-500"
+              >
                 Sobre mí
               </button>
-              <button onClick={() => closeMenuAndScroll("skills")} className="text-xl md:text-[24px] text-white">
+              <button
+                onClick={() => closeMenuAndScroll("skills")}
+                className="text-xl md:text-[18px] text-white relative pb-2 hover:after:block hover:after:content-[''] hover:after:absolute hover:after:left-0 hover:after:bottom-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-green-500"
+              >
                 Habilidades
               </button>
-              <button onClick={() => closeMenuAndScroll("projects")} className="text-xl md:text-[24px] text-white">
+              <button
+                onClick={() => closeMenuAndScroll("projects")}
+                className="text-xl md:text-[18px] text-white relative pb-2 hover:after:block hover:after:content-[''] hover:after:absolute hover:after:left-0 hover:after:bottom-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-green-500"
+              >
                 Proyectos
               </button>
-              <button onClick={() => closeMenuAndScroll("contact")} className="text-xl md:text-[24px] text-white">
+              <button
+                onClick={() => closeMenuAndScroll("contact")}
+                className="text-xl md:text-[18px] text-white relative pb-2 hover:after:block hover:after:content-[''] hover:after:absolute hover:after:left-0 hover:after:bottom-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-green-500"
+              >
                 Contacto
               </button>
             </nav>
