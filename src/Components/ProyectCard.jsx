@@ -38,7 +38,7 @@ function ProjectCard({ project, isEven }) {
                 className="text-gray-400 hover:text-custom-green transition-colors"
                 aria-label="Ver código fuente en GitHub"
               >
-                <img src="/assets/img/github.png" alt="GitHub" className="w-6 h-6" />
+                <img src="../../public/assets/img/github.png" alt="GitHub" className="w-6 h-6" />
               </a>
               {project.live && project.live !== "#" ? (
                 <a 
