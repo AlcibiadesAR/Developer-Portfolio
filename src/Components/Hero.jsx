@@ -1,12 +1,10 @@
-import foto from "/assets/img/foto.png";
-
 function Hero() {
   return (
     <>
       <section className="block items-center justify-center font-mono w-full -mt-4">
       <div className="flex  items-center justify-center md:ml-8">
       <img
-            src={foto}
+            src="/assets/img/foto.png"
             className="w-[100px]"
             alt="Alcibiades Acosta foto"
           />
