@@ -1,19 +1,10 @@
 import '../styles/header.css';
-import { useState } from "react";
+import useMenu from '../hooks/useMenu'
 import { Menu, X } from "lucide-react";
-import { scrollToSection } from '../Utils/Scroll'; 
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const closeMenuAndScroll = (sectionId) => {
-    scrollToSection(sectionId);  
-    setIsMenuOpen(false);       
-  };
+const {isMenuOpen, toggleMenu, closeMenuAndScroll} = useMenu()
 
   return (
     <>
@@ -22,7 +13,7 @@ function Header() {
           <div className="flex justify-between items-center py-4">
             <div className="flex w-0 flex-1">
               <span
-                className="text-3xl md:text-4xl lg:text-5xl font-bold text-white font-quantico mt-4 drop-shadow-[2px_2px_4px_rgba(0,255,0,0.6)]"
+                className="text-3xl md:text-4 font-bold text-white font-quantico mt-2 mb-3 drop-shadow-[2px_2px_4px_rgba(0,255,0,0.6)]"
                 onClick={() => scrollToSection("hero")}
                 style={{ cursor: "pointer" }}
               >
@@ -45,7 +36,7 @@ function Header() {
               </button>
             </div>
 
-            <nav className="menu-desktop space-x-10 font-quantico ml-auto">
+            <nav className="menu-desktop space-x-10 font-quantico ml-auto mt-4 mb-3">
               <button
                 onClick={() => closeMenuAndScroll("about")}
                 className="text-xl md:text-[18px] text-white relative pb-2 hover:after:block hover:after:content-[''] hover:after:absolute hover:after:left-0 hover:after:bottom-0 hover:after:w-full hover:after:h-[2px] hover:after:bg-green-500"
