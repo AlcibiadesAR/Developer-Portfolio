@@ -1,5 +1,3 @@
-import githubIcon from "../../public/assets/img/github.png";
-
 function ProjectCard({ project, isEven }) {
     return (
       <div className={`relative grid md:grid-cols-12 gap-6 items-center ${isEven ? '' : 'md:text-right'}`}>
@@ -40,7 +38,7 @@ function ProjectCard({ project, isEven }) {
                 className="text-gray-400 hover:text-custom-green transition-colors"
                 aria-label="Ver código fuente en GitHub"
               >
-                <img src={githubIcon} alt="GitHub" className="w-6 h-6" />
+                <img src="/assets/img/github.png" alt="GitHub" className="w-6 h-6" />
               </a>
               {project.live && project.live !== "#" ? (
                 <a 
